@@ -1,16 +1,17 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "idlebxstore",
-  "main": "./worker.ts",
-  "compatibility_date": "2026-08-19",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-08-20",
+
   "assets": {
     "directory": "./dist",
-    "binding": "ASSETS",
-    "not_found_handling": "single-page-application"
+    "binding": "ASSETS"
   },
+
   "kv_namespaces": [
     {
-      "binding": "STORE_DATA"
+      "binding": "STORE_DATA",
+      "id": "aa0a8a714ab64aedb7953447da06993c"
     }
   ]
 }
