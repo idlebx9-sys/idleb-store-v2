@@ -2,14 +2,11 @@
   "name": "idlebxstore",
   "main": "worker.ts",
   "compatibility_date": "2026-08-20",
-  "compatibility_flags": [
-    "nodejs_compat"
-  ],
 
   "kv_namespaces": [
     {
       "binding": "STORE_DATA",
-      "id": "4e25c77dd90948f69811856bed9237c5"
+      "id": "aa0a8a714ab64aedb7953447da06993c"
     }
   ],
 
